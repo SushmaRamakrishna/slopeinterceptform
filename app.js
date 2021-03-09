@@ -1,18 +1,15 @@
 let b = 0;
 function findtheslope()
 {
-    let m = document.getElementById("mslope").value;
-    let x = document.getElementById("xcordinate").value;
-    let y = document.getElementById("ycordinate").value;
+    let m = document.getElementById("slopem").value;
+    let x = document.getElementById("pointx").value;
+    let y = document.getElementById("pointy").value;
 
-    //y = m * x + b;
-
-
-    document.getElementById("slopestep1").innerHTML = "Slope formula is y = " + m + "x + b";
-    document.getElementById("slopestep2").innerHTML = y + " = " + (m * x) + " b";
-    document.getElementById("slopestep3").innerHTML = y + " -( " + (m * x) + " ) = b";
-    document.getElementById("slopeFinal").innerHTML = y -(m * x) + " = b";
-    document.getElementById("slopeformanswer").innerHTML = "y = " + m + "x + " + (y -(m * x));
+    document.getElementById("slopeStep1").innerHTML = "Slope formula is y = " + m + "x + b";
+    document.getElementById("slopeStep2").innerHTML = y + " = " + (m * x) + " b";
+    document.getElementById("slopeStep3").innerHTML = y + " -( " + (m * x) + " ) = b";
+    document.getElementById("slopeStep4").innerHTML = y -(m * x) + " = b";
+    document.getElementById("slopeAnswer").innerHTML = "y = " + m + "x + " + (y -(m * x));
 }
 
  
