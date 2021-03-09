@@ -8,11 +8,11 @@ function findtheslope()
     //y = m * x + b;
 
 
-    document.getElementById("slopestep1").innerHTML = "Slope formula is y= " + m + "x + b";
-    document.getElementById("slopestep2").innerHTML = y + "=" + (m * x) + " b";
-    document.getElementById("slopestep3").innerHTML = y + "-(" + (m * x) + ") = b";
+    document.getElementById("slopestep1").innerHTML = "Slope formula is y = " + m + "x + b";
+    document.getElementById("slopestep2").innerHTML = y + " = " + (m * x) + " b";
+    document.getElementById("slopestep3").innerHTML = y + " -( " + (m * x) + " ) = b";
     document.getElementById("slopeFinal").innerHTML = y -(m * x) + " = b";
-    document.getElementById("slopeformanswer").innerHTML = "y= " + m + "x + " + (y -(m * x));
+    document.getElementById("slopeformanswer").innerHTML = "y = " + m + "x + " + (y -(m * x));
 }
 
  
