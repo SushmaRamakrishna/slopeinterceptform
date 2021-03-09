@@ -5,6 +5,9 @@
   background-color: honeydew;
   list-style-type: none ;
 }
+.answer-row > p {
+  align-items: center;
+}
 .wrapper {
   background-color: whitesmoke;
   list-style-type: none;
